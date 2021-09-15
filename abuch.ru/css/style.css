@@ -1,0 +1,302 @@
+html, body {
+    height:100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    flex: 1 1 auto;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+@media (max-width: 1229px) {
+    .container {
+        max-width: none;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1230px) {
+    .container {
+        max-width: 1219px;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 2020px) {
+    .container {
+        max-width: 2011px;
+        margin: 0 auto;
+    }
+}
+
+/* -------------------------------- HEADER BLOCK -------------------------------- */
+
+.header {
+    background-color: #007765;
+}
+.hi {
+}
+.hi__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 84px;
+    margin: 0 55px;
+}
+.hi__image {
+
+}
+.hi__image img{
+    max-width: 184px;
+    max-height: 45px;
+}
+.hi__body {
+    
+}
+.hi__list a {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 28.1px;
+    text-decoration: none;
+}
+.hi__list li {
+    display: inline;
+    border-right: 2px solid #FFFFFF;
+    padding: 0 8px 0 4px;
+}
+.hi__list li:last-child {
+    border-right: none;
+    padding: 0 0 0 4px;
+}
+
+/* -------------------------------- END HEADER BLOCK -------------------------------- */
+/* -------------------------------- CONTENT BLOCK -------------------------------- */
+
+.content {
+    flex: 1 1 auto;
+}
+
+/* -------------------------------- PIPER BLOCK -------------------------------- */
+
+.piper {
+    
+}
+.piper__row {
+    height: 403px;
+    display: flex;
+    background: url(../images/img1.png) no-repeat center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.piper__title {
+    font-size: 72px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+/* -------------------------------- END PIPER BLOCK -------------------------------- */
+/* -------------------------------- PROBLEM BLOCK -------------------------------- */
+
+.problem {
+}
+.problem__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.problem__body {
+    max-width: 1110px;
+}
+.problem__title {
+}
+.title {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+    color: #007765;
+    margin-top: 46px;
+}
+.problem__text {
+    margin: 18px 0 94px 0;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000;
+}
+.problem__text p{
+    padding-bottom: 39px;
+}
+.problem__text p:last-child{
+    padding-bottom: 0;
+}
+.problem__text b {
+    font-weight: bold;
+}
+
+/* -------------------------------- END PROBLEM BLOCK -------------------------------- */
+/* -------------------------------- WE BLOCK -------------------------------- */
+
+.we {
+}
+.we__row {
+    height: 483px;
+    
+    display: flex;
+    background: url(../images/img2.png) no-repeat center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.we__text {
+    max-width: 893px;
+    font-size: 48px;
+    line-height: 56.3px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* -------------------------------- END WE BLOCK -------------------------------- */
+/* -------------------------------- INTRODUCING BLOCK -------------------------------- */
+
+.introducing {
+}
+.introducing__title {
+}
+.introducing__row {
+    
+}
+.introducing__body {
+    display: flex;
+    margin-top: 16px;
+}
+.introducing__logo {
+    padding: 0px 48px 35px 55px;
+}
+.introducing__logo img {
+    width: 115px;
+    height: 115px;
+}
+.introducing__logotext {
+    flex: 1 1 auto;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000;
+}
+.introducing__logotext em {
+    font-style: italic;
+}
+.introducing__logotext p {
+    padding-bottom: 40px;
+}
+.introducing__logotext p:last-child {
+    padding-bottom: 0;
+}
+.introducing__text {
+    padding: 0 54px 44px 55px;
+    flex: 1 1 auto;
+    font-size: 32px;
+    line-height: 37.5px;
+    color: #000;
+}
+.introducing__text em {
+    font-style: italic;
+}
+.introducing__text p {
+    padding-bottom: 40px;
+}
+.introducing__text p:last-child {
+    padding-bottom: 0;
+}
+
+/* -------------------------------- END INTRODUCING BLOCK -------------------------------- */
+/* -------------------------------- TEAM BLOCK -------------------------------- */
+
+.team {
+    background-color: #EEEEEE;
+    
+}
+.team__title {
+    padding-top: 48px;
+    margin-bottom: 56px;
+}
+.team__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 957px;
+    margin: 0 auto;
+}
+.team__card {
+    flex: 0 1 28%;
+}
+.team__card:nth-child(3n+2) {
+    flex: 1 1 auto;
+}
+.team__item {
+}
+.item {
+}
+.item__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 82px;
+}
+.item__image {
+    margin-bottom: 10px;
+}
+.item__image img{
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+}
+.item__body {
+}
+.item__title {
+    color: #007765;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28.1px;
+    text-align: center;
+}
+.item__text {
+    font-size: 18px;
+    line-height: 21.1px;
+    text-align: center;
+    font-style: italic;
+    color: #000;
+}
+
+/* -------------------------------- END TEAM BLOCK -------------------------------- */
+/* -------------------------------- END CONTENT BLOCK -------------------------------- */
+/* -------------------------------- FOOTER BLOCK -------------------------------- */
+.footer {
+    background-color: #333333;
+}
+.footer__row {
+    display: flex;
+    justify-content: center;
+
+    min-height: 146px;
+}
+.footer__text {
+    margin-top: 48px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 21.1px;
+    color: #FFFFFF;
+    max-width: 540px;
+}
+
+/* -------------------------------- END FOOTER BLOCK -------------------------------- */
